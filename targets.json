@@ -668,6 +668,20 @@
             }
         }
     },
+    "fatfish": {
+        "name": "Fatfish",
+        "tx_2400": {
+            "f16": {
+                "product_name": "FATFISH F16 2.4GHz TX",
+                "lua_name": "FATFISH F16",
+                "layout_file": "FATFISH F16 2400.json",
+                "upload_methods": ["etx", "wifi"],
+                "min_version": "3.4.0",
+                "platform": "esp32",
+                "firmware": "Unified_ESP32_2400_TX"
+            }
+        }
+    },
     "flywoo": {
         "name": "Flywoo",
         "rx_2400": {
